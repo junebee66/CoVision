@@ -1,0 +1,171 @@
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited { 
+    text-decoration: none; 
+    color: black;
+}
+
+a:hover { 
+    text-decoration: none; 
+    color: #E25544;
+    font-weight: 900;
+}
+
+/* a:active { 
+    text-decoration: none; 
+    color: #BF1F2D;
+} */
+
+input{
+    padding: 0px, 0px;
+}
+
+button{
+    padding: 0px, 0px;
+}
+
+body {
+    /* height: 100%;
+    width: 100%;
+    display:inline; */
+    font-family: 'Kannada MN';
+    font-style: normal;
+    background-image: url(/assets/grey.jpg);
+}
+
+
+#cover{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:1em;
+    margin-bottom:1em;
+    /* margin-inline:inherit; */
+    height: 95vh;
+    width: 95vw;
+    background-image: url(/assets/start-bg.jpg);
+    justify-content:center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    /* background-position:center; */
+}
+
+
+
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 1.5vw;
+    /* margin-top: 3vh; */
+}
+
+
+
+.menu-1, .menu-2, .menu-3, .menu-4 {
+    margin-right: 5vw;
+    margin-top: 5vh;
+    margin-bottom: 1vh;
+    z-index: 2;
+    font-family: 'Kannada Sangam MN';
+    font-style: normal;
+}
+
+
+#all-ui{
+    padding-top:2%;
+    display: flex;
+    height:80%;
+}
+
+    #left-settings{
+        /* background-color: green; */
+        width:30%;
+        /* height:100%; */
+        height:100%;
+        justify-content: center;
+        margin-left: .5vw;
+
+    }
+
+        #google-img{
+            /* background-color: red; */
+            display: block;
+            border-style: solid;
+            border-color: black;
+            border-width: 2px;
+            width:90%;
+            /* height:40%; */
+            height:30%;
+            margin-top: 2vh;
+            margin-left: auto;
+
+        }
+
+        #inputBtn{
+            display: flex;
+            width:100%;
+            height:20%;
+        }
+
+
+            #textBox{
+                background-image: url(/assets/input.png);
+                background-size:cover;
+                background-repeat: no-repeat;
+                height:100%;
+                width:80%;
+                mix-blend-mode:multiply;
+                border-style:none
+                
+            }
+            
+            #go{
+                background-image: url(/assets/button.png);
+                background-position: 0px,-3px;
+                /* background-size:cover; */
+                background-size:cover;
+                background-repeat: no-repeat;
+                height:105%;
+                width:20%;
+                border-style: none;
+                mix-blend-mode:multiply;
+            }
+
+            #imgFetched{
+                height:80%;
+                width:100%;
+                margin-bottom:-8px;
+            }
+
+        #route-map{
+            display: block;
+            /* background-color: white; */
+            /* border-style: solid; */
+            border-color: black;
+            border-width: 3px;
+            width:90%;
+            /* height:52%; */
+            height:60%;
+            margin-top: 4vh;
+            margin-left: auto;
+        
+
+        }
+
+
+    #right-canvas{
+        width:75%;
+        margin-top: 2vh;
+        /* background-color: yellow; */
+        padding-bottom:10%;
+        height:75%;
+        border-style: solid;
+        border-color: black;
+        border-width: 2px;
+        margin-left: 2%;
+        margin-right: 2%;
+    }

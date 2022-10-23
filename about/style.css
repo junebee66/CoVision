@@ -1,0 +1,71 @@
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited { 
+    text-decoration: none; 
+    color: black;
+}
+
+a:hover { 
+    text-decoration: none; 
+    color: #E25544;
+    font-weight: 900;
+}
+
+a:active { 
+    /* text-decoration: none; 
+    color: #BF1F2D; */
+}
+
+body {
+    /* background-image: url(/assets/layout.jpg);
+    background-color: #cccccc;
+    background-size:cover; */
+    font-family: 'Kannada MN';
+    font-style: normal;
+    /* background-image: url(/assets/bg.jpg); */
+
+}
+
+
+html, body {
+    /* height: 100%;
+    width: 100%;
+    display:inline; */
+    height: 400vh;
+    width: 100vw;
+    background-image: url(/assets/grey.jpg);
+    background-size:cover;
+}
+
+
+#cover{
+    margin: auto;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/assets/bg.jpg);
+    background-size:100vw, 100vh;
+}
+
+
+
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 1.5vw;
+    /* margin-top: 3vh; */
+}
+
+
+
+.menu-1, .menu-2, .menu-3, .menu-4 {
+    margin-right: 5vw;
+    margin-top: 3vh;
+    z-index: 2;
+    font-family: 'Kannada Sangam MN';
+    font-style: normal;
+}
