@@ -33,7 +33,7 @@ body {
     display:inline; */
     font-family: 'Kannada MN';
     font-style: normal;
-    background-image: url(/assets/grey.jpg);
+    background-image: url(../assets/grey.jpg);
 }
 
 
@@ -45,7 +45,7 @@ body {
     /* margin-inline:inherit; */
     height: 95vh;
     width: 95vw;
-    background-image: url(/assets/start-bg.jpg);
+    background-image: url(../assets/start-bg.jpg);
     justify-content:center;
     background-repeat: no-repeat;
     background-size:contain;
@@ -113,7 +113,7 @@ body {
 
 
             #textBox{
-                background-image: url(/assets/input.png);
+                background-image: url(../assets/input.png);
                 background-size:cover;
                 background-repeat: no-repeat;
                 height:100%;
@@ -124,7 +124,7 @@ body {
             }
             
             #go{
-                background-image: url(/assets/button.png);
+                background-image: url(../assets/button.png);
                 background-position: 0px,-3px;
                 /* background-size:cover; */
                 background-size:cover;
