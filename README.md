@@ -1,6 +1,5 @@
-CoVision
+###CoVision
 <!-- 1-2 sentence description of assignment. Nice to include a screenshot or .gif of the site in action. -->
-![image is not loaded, please try again](./assets/part-1.gif)
 ![image is not loaded, please try again](./assets/part-2.gif)
 This is an online tool for the 21st century mixed media creatives (artists, designers, writers, and more types of creator) to resolve their creativity blocks by reimagining and remixing their current space and time. As creatives, we have always imagine the world going forward with a new vision, but how do we break the habit of looking to the front and start by applying the same vision to the present in order to bridge our way to reach that ultimate future? Stories, stories are the answer.
 
@@ -72,6 +71,7 @@ _-Still in developing stage-_
 
 ## **✍🏻Process & Documentation**
 ![alt text](assets/point-cloud-sketch.png)
+![image is not loaded, please try again](./assets/part-1.gif)
 
 **1. WebGL p5.js function**</br>
 Originally, I was inspired by this [3D webcam point cloud](https://github.com/FollowTheDarkside/threejs-webcam-particle-visualizer) created by Hirasawa. He made the image captured in the webcam camera to convert into 3d data points that contains position data. I tried using his code and applied the handpose library onto it. However, since the original code is created by the three.js library, and handpose library is by P5, the communication between the code is not very smooth. Therefore, I thought about coding my own point cloud camera using the WebGL function. I made every pixel capture from the web camera into spheres. In the end, there will be a grid of sphere in the digital 3D space. 
