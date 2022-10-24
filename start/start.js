@@ -402,7 +402,6 @@ class Friend {
     }
     
     show(){
-      if(this.stream){
       push();
       translate(this.x, this.y, this.z);
       // console.log("this is stream" + this.stream);
@@ -410,7 +409,6 @@ class Friend {
       texture(this.stream);
       box(100, 100);
       pop();
-    }
   }
   }
 
