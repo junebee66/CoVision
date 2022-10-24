@@ -1,4 +1,4 @@
-###CoVision
+# CoVision
 <!-- 1-2 sentence description of assignment. Nice to include a screenshot or .gif of the site in action. -->
 ![image is not loaded, please try again](./assets/part-2.gif)
 This is an online tool for the 21st century mixed media creatives (artists, designers, writers, and more types of creator) to resolve their creativity blocks by reimagining and remixing their current space and time. As creatives, we have always imagine the world going forward with a new vision, but how do we break the habit of looking to the front and start by applying the same vision to the present in order to bridge our way to reach that ultimate future? Stories, stories are the answer.
