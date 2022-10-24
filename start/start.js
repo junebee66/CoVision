@@ -44,8 +44,10 @@ let liveMediaConnection;
 let parsedData;
 
 let canvas1
-let canvas2;
-let mapCamera;
+// let canvas2;
+// let mapCamera;
+
+
 
 
 document.addEventListener("DOMContentLoaded", function(){
@@ -65,9 +67,7 @@ function setup() {
     let canvasWidth = document.getElementById("right-canvas").offsetWidth;
     let canvasHeight = document.getElementById("right-canvas").offsetHeight;
      canvas1 =createCanvas(canvasWidth, canvasHeight, WEBGL);
-        canvas1.parent('right-canvas');
-
-
+    canvas1.parent('right-canvas');
 
   // img = loadImage("strokes.jpg");
   // img = loadImage("woman.jpg");
@@ -98,14 +98,14 @@ function setup() {
 
   
   //livep5 #01
-  liveMediaConnection = new p5LiveMedia(this, null, null, "my-oom");
+  liveMediaConnection = new p5LiveMedia(this, null, null, "my-covision");
   liveMediaConnection.on("stream", gotStream);
   liveMediaConnection.on("data", gotData);
   myVideo = createCapture(VIDEO, gotLocalMediaStream);
   myVideo.muted = true;
   myVideo.hide();
   
-  stroke(0);
+  // stroke(0);
   debugMode(GRID);
 
   
@@ -157,6 +157,7 @@ function draw() {
   
   //livep5 #02
 
+
   for (let id in friends) {
     let p = friends[id];
     p.show();
@@ -169,7 +170,6 @@ function draw() {
   // }
 
   if (img){
-  
   convertImg();
   }
   
@@ -229,9 +229,9 @@ function fetchImageSend() {
     liveMediaConnection.send(JSON.stringify(imgSend));
   }
   
-  posX = myCamera.eyeX;
-  posY = myCamera.eyeY;
-  posZ = myCamera.eyeZ;
+  // posX = myCamera.eyeX;
+  // posY = myCamera.eyeY;
+  // posZ = myCamera.eyeZ;
 
   
 
@@ -277,7 +277,7 @@ function googleImg(imgData) {
                             
                             pointClouds.push(img);
                             
-                           img.resize(300,300);
+                            img.resize(300,300);
                             
                             console.log("new image added");
                     
@@ -294,8 +294,6 @@ function googleImg(imgData) {
 function gotData(data, id) {
   // console.log("got incoming data from peer with ID", id);
   parsedData = JSON.parse(data);
-  
-  
   
   if(friends[id]){
   friends[id].update(parsedData.x,parsedData.y,parsedData.z);
@@ -333,17 +331,15 @@ function gotStream(stream, id) {
 
 function convertImg(){
   // if (img) {
-      // console.log("drawing");
   
   
   for (let i = 0; i < pointClouds.length; i++) {
       let pointCloud = pointClouds[i];
       push();
       translate(imgX, imgY, imgZ);
-    console.log(pointCloud);
+      // console.log(pointCloud);
       // translate(myCamera.eyeX, myCamera.eyeY, myCamera.eyeZ);
       // translate(posX-100, posY, posZ);
-    
       // translate(pos,pos);
 
       // rotateY(radians(frameCount));
@@ -352,7 +348,7 @@ function convertImg(){
       let tiles = 50;
       let tileSize = pointCloud.width / tiles;
 
-      
+
       for (let x = 0; x < tiles; x++) {
         for (let y = 0; y < tiles; y++) {
           let c = pointCloud.get(x * tileSize, y * tileSize);
@@ -406,14 +402,16 @@ class Friend {
     }
     
     show(){
-    if(this.stream){
+      if(this.stream){
       push();
       translate(this.x, this.y, this.z);
+      // console.log("this is stream" + this.stream);
+      // console.log("this is myVideo" + myVideo);
       texture(this.stream);
       box(100, 100);
       pop();
     }
-    }
+  }
   }
 
 
