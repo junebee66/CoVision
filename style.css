@@ -36,15 +36,28 @@ html, body {
     display:inline; */
     height: 100%;
     width: 100vw;
-    background-image: url(./assets/grey.jpg);
+    /* background-image: url(./assets/grey.jpg); */
+    background-color: white;
     background-size:cover;
 }
 
+/* iframe{
+    margin-top:-500px;
+    z-index: -2;
+} */
+
+.all {
+    /* margin-top:-300px; */
+    position: absolute;
+    top:0px;
+    z-index: 4;
+}
 
 #cover{
     /* margin: auto; */
     height: 100vh;
     width: 100vw;
+    /* background-image: url(./assets/bg-2.png); */
     background-image: url(./assets/bg.jpg);
     background-size:100vw, 100vh;
 }
@@ -68,4 +81,13 @@ html, body {
     z-index: 2;
     font-family: 'Kannada Sangam MN';
     font-style: normal;
+}
+
+
+#instructions{
+    height: 100vh;
+    width: 100vw;
+    /* background-image: url(./assets/bg-2.png); */
+    background-image: url(./assets/instructions.jpg);
+    background-size:100vw, 100vh;
 }

@@ -37,6 +37,12 @@ body {
 }
 
 
+/* .iframe {
+    z-index: -2;
+
+} */
+
+
 #cover{
     margin-left:auto;
     margin-right:auto;
@@ -49,7 +55,22 @@ body {
     justify-content:center;
     background-repeat: no-repeat;
     background-size:contain;
-    /* background-position:center; */
+    background-position:center;
+}
+
+
+#topnav{
+    display: flex;
+    flex-direction: row;
+    margin-bottom:-5vh;
+}
+
+
+#logo{
+    margin-top: 4vh;
+    width:40%;
+    margin-left: 3vw;
+    margin-bottom:3vh;
 }
 
 
@@ -60,7 +81,9 @@ body {
     flex-direction: row;
     justify-content: flex-end;
     font-size: 1.5vw;
-    /* margin-top: 3vh; */
+    left: 0px;
+    width:70%;
+    margin-left: 30vh;
 }
 
 
@@ -68,7 +91,6 @@ body {
 .menu-1, .menu-2, .menu-3, .menu-4 {
     margin-right: 5vw;
     margin-top: 5vh;
-    margin-bottom: 1vh;
     z-index: 2;
     font-family: 'Kannada Sangam MN';
     font-style: normal;
@@ -143,6 +165,7 @@ body {
 
         #route-map{
             display: block;
+            /* background-image:  url(https://shaderpark.com/embed/-N3VQs2wN4HWaahKvRS1); */
             /* background-color: white; */
             /* border-style: solid; */
             border-color: black;
