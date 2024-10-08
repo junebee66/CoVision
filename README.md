@@ -11,6 +11,7 @@ This is an online virtual meeting tool that helps members in a creative group pr
 [✍🏻 Documentation Page](https://quixotic-mandible-495.notion.site/Final-Collaborative-Space-fedbe986f725457aa2a89fec423bd3ac)<br/>
 
 ## **🫱 How to Use?**
+![image is not loaded, please try again](./assets/mockup/white-bg-working.jpg)
 ![image is not loaded, please try again](./assets/instructions.jpg)
 <!-- ![video is not loaded, please try again](assets/point-cloud-feature.png) -->
 ### **🛑 DISCLAIMER 🛑**
@@ -33,6 +34,7 @@ This project is still in progress stage. Most functions work, but it might take 
 **4️⃣ Top Down Map**
 > This map is hosted by a top down camera in the 3D scene, helping the user to better understand the user and their teammate’s location in the context of this specific virtual space. Furthermore, it visualizes the relationships between the pointclouds you created and your teammates created.
 
+![image is not loaded, please try again](./assets/mockup/people-using.jpg)
 
 
 
@@ -295,6 +297,7 @@ the shader vertices code:
 ## **☁️ Future Development Envision**
 - point cloud spawning at different places
 - the top down map
+![image is not loaded, please try again](./assets/mockup/white-bg.jpg)
 
 ## **References**
 [Webcam Sharing (P5 LiveMedia)](https://github.com/vanevery/p5LiveMedia) by p5.js</br>
