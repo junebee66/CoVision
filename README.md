@@ -7,9 +7,9 @@ This is an online virtual meeting tool that helps members in a creative group pr
 
 >
 [⭐️ Concept Animation](https://youtu.be/_XL-VpwrSoo?si=T2czF05HG5gCkRAR)<br/> 
-[💻 Website](https://junebee66.github.io/co-vision/)<br/> 
 [🌈 Pitchdeck](https://www.behance.net/gallery/204391925/CoVision-Collaborate-with-Fusing-Vision)<br/>
 [✍🏻 Documentation Page](https://quixotic-mandible-495.notion.site/Final-Collaborative-Space-fedbe986f725457aa2a89fec423bd3ac)<br/>
+[💻 Website (in-progress)](https://junebee66.github.io/co-vision/)<br/> 
 
 ## **🫱 How to Use?**
 ![image is not loaded, please try again](./assets/mockup/white-bg-working.jpg)
